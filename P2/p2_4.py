@@ -1,0 +1,10 @@
+name = input("Enter name: ")
+adminNo = input("Enter admin number: ")
+age = input("Enter age: ")
+gender = input("Enter gender (Male / Female): ")
+weight = float(input("Enter weight (kg):"))
+height = float(input("Enter height (m): "))
+bmi = weight / height ** 2
+print("\nHello! ", name )
+print("Your admin no is ", adminNo, " and age is ", age )
+print("Your gender is %s and bmi is %.2f "% ( gender , bmi ) )

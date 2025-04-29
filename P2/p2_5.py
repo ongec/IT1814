@@ -1,0 +1,10 @@
+test1 = float(input("What is your score for Test 1: "))
+base1 = float(input("What is weightage for Test 1: "))
+test2 = float(input("What is your score for Test 2: "))
+base2 = float(input("What is weightage for Test 2: "))
+test3 = float(input("What is your score for Test 3: "))
+base3 = float(input("What is weightage for Test 3: "))
+exam = float(input("What is your score for Exam: "))
+score = ((test1/100)*base1) + ((test2/100)*base2) + ((test3/100)*base3)+ (0.5*exam)
+print('Your final score is ', score)
+
