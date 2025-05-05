@@ -1,0 +1,1 @@
+print(f"P6 files")
