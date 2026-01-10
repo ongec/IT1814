@@ -6,3 +6,4 @@ total = subtotal + gst
 print("Subtotal: $%.2f" % subtotal)
 print("GST: $%.2f" % gst)
 print("Total: $%.2f" %total)
+print(f"Subtotal:${subtotal:.2f}\nGST:${gst:.2f}\nTotal:${total}")

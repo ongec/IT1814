@@ -3,3 +3,4 @@ monthlySalary = grossSalary / 12
 cpf = 0.2*monthlySalary
 takeHome = monthlySalary - cpf - 1500
 print("The monthly take-home pay is $", takeHome)
+print(f"The monthly take-home pay is ${takeHome:.1f}")

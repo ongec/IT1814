@@ -1,7 +1,8 @@
 import pandas as pd
 
 # Replace with the path to your .xls file
-file_path = 'c:\\data.xls'
+# file_path = 'c:\\data.xls'
+file_path = 'IT1814\More\data.xls'
 # df = pd.read_excel(file_path)
 # Read the .xls file
 df = pd.read_excel(file_path, engine='xlrd')
